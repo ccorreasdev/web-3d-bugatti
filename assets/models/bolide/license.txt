@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bugatti Bolide 2024
+* source:	https://sketchfab.com/3d-models/bugatti-bolide-2024-b5d4d4ea676540ebbf9fdcd5d63e7e1d
+* author:	SavinoWorks (https://sketchfab.com/SavinoWorks)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bugatti Bolide 2024" (https://sketchfab.com/3d-models/bugatti-bolide-2024-b5d4d4ea676540ebbf9fdcd5d63e7e1d) by SavinoWorks (https://sketchfab.com/SavinoWorks) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

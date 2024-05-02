@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bugatti";
+    src: url("../font/Bugatti/Bugatti.woff2");
+}
+
+:root {
+    --bg-color: #343434;
+    --text-color: #d8d8d6;
+    --primary-color: #61697B;
+    --secondary-color: #381C47;
+    --secondary-color-a: rgba(56, 28, 71, 0.4);
+    --bg-color-1:#0992a4 ; 
+    --bg-color-2: #0a61d4;
+    --bg-color-3: #313a45;
+    --bg-color-4: #252f38;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: 'Bugatti', 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.layout {
+    width: 100%;
+    min-height: 200dvh;
+    background: linear-gradient(45deg, var(--bg-color-1) 0% 25%, var(--bg-color-2) 25% 50%,var(--bg-color-3) 50% 75%,var(--bg-color-4) 75% 100%);
+    color: var(--text-color);
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 99;
+}
+
+.enter__layout {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 199;
+    transition: all 300ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+
+.enter__button {
+    border: solid 2px white;
+    padding: 2rem;
+    font-size: 4rem;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.enter__button:hover {
+    color: black;
+    background-color: white;
+}
+
+.nav__layout {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    z-index: 299;
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.nav__item {
+    font-size: 2rem;
+    transition: all 200ms ease-in-out;
+}
+
+.nav__item:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5),
+    1px 1px 10px rgba(255, 255, 255, 0.5),
+    -1px -1px 10px rgba(255, 255, 255, 0.5);
+}
+
+.nav__img-container {
+    width: 100px;
+    height: 100px;
+}
+
+.nav__img {
+    width: 100%;
+    height: 100%;
+}
+
+.section__layout{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    height: calc(100dvh - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 0;
+    flex-wrap: wrap;
+    
+}
+
+.section__img-container {
+    width: 300px;
+    height: 168px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.section__img {
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.section__img-container:hover > .section__img {
+    transform: scale(1.05);
+}
+
+.section__text-img {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+.section__text {
+    width: 100%;
+    height: 100dvh;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    background-color: #00000080;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+z-index: 298;
+}
+
+
+
+.canvas {
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: all;
+    overflow-x: hidden;
+}
+
+
+.progress__bar {
+    margin-top: 2rem;
+    width: 0%;
+    max-width: 768px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all 500ms ease-in-out;
+}

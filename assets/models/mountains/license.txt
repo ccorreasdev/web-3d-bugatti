@@ -1,0 +1,11 @@
+Model Information:
+* title:	SD_Sky_230315a
+* source:	https://sketchfab.com/3d-models/sd-sky-230315a-7b88df45719c4ce28e6df8c966c7c515
+* author:	ritsuka (https://sketchfab.com/ritsuka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SD_Sky_230315a" (https://sketchfab.com/3d-models/sd-sky-230315a-7b88df45719c4ce28e6df8c966c7c515) by ritsuka (https://sketchfab.com/ritsuka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

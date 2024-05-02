@@ -131,7 +131,7 @@ const loadModelGLTF = (modelURL) => {
 
     return new Promise((resolve, reject) => {
         loader.load(
-            `../assets/models/${modelURL}/scene.gltf`,
+            `./assets/models/${modelURL}/scene.gltf`,
             function (gltf) {
                 const container = new THREE.Group();
                 container.add(gltf.scene);

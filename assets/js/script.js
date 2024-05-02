@@ -195,6 +195,8 @@ const init = async () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
     canvas.appendChild(renderer.domElement);
 
+    enter.style.opacity = 0;
+
     await loadModelGLTF("mountains").then((resolve) => {
         loadingProgress = 25;
         progressBar.innerHTML = `${loadingProgress}%`;
@@ -220,6 +222,7 @@ const init = async () => {
         model4 = resolve;
     })
 
+    enter.style.opacity = 1;
 
     const model1Scale = 0.6;
     scene.add(model1);
